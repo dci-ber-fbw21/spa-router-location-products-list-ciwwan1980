@@ -1,0 +1,13 @@
+.products{
+    width:100vw; 
+    margin: 0 auto;
+}
+table{
+
+    width:80vw; 
+}
+thead{
+    padding: 10px;
+    background-color: lightblue;
+    color: white;
+}
