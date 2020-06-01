@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export default class Home extends React.Component {
 
     render() {
-      console.log(this.props)
+      console.log(this.props.data, "here in Home")
       const topProducts =this.props.data && this.props.data.sort((a, b) => b.price - a.price).slice(0,4);
       console.log(topProducts)
         return(
@@ -27,7 +27,7 @@ export default class Home extends React.Component {
 
                 //???????? why we went here in Home to topProduct.slug
 
-                
+
                 <Link to={`/products/${topProduct.slug}`}>
                   <div className="inner-div">
               <h3>{topProduct.name}</h3>

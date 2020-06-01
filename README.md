@@ -1,5 +1,4 @@
 
-// run command: npm run full, 
 // to run application: npm run full
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
